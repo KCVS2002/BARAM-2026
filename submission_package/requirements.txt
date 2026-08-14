@@ -1,0 +1,9 @@
+# 검증 환경 고정 버전 (개발 환경: Windows 11 Home, Python 3.13.11)
+numpy==2.4.2
+pandas==2.3.3
+scikit-learn==1.6.1
+lightgbm==4.6.0
+joblib==1.4.2
+torch==2.8.0
+# torch는 CPU 빌드로 충분 (GPU 사용 시: pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu128)
+tabpfn==2.2.1

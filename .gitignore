@@ -1,0 +1,27 @@
+# ── 비밀정보 (절대 커밋 금지) ──
+.env
+
+# ── 대회 제공 데이터 (재배포 금지) ──
+Data/
+
+# ── 대용량 외부데이터·캐시 (OneDrive로 동기화, git 제외) ──
+external_data/*
+!external_data/README.md
+experiments/cache/
+experiments/oof_cache/
+experiments/oof_cache_q3/
+experiments/test_cache/
+logs/
+catboost_info/
+
+# ── 재현 패키지의 대용량 부분 (코드·문서는 추적) ──
+submission_package/external_data/
+submission_package/models/
+submission_package/output/
+submission_package/Data/
+submission_package/final_submission_sub_055_tabpfn.csv
+
+# ── 파이썬 부산물 ──
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
