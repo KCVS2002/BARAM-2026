@@ -25,3 +25,6 @@ submission_package/final_submission_sub_055_tabpfn.csv
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# ── 대용량 아카이브 ──
+*.zip
